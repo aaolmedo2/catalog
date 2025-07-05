@@ -21,7 +21,7 @@ public class Prestamos {
     @Id
     private String id;
 
-    private Integer idTipoPrestamo;
+    private String idTipoPrestamo;
     private String idMoneda;
     private String nombre;
     private String descripcion;
@@ -33,8 +33,8 @@ public class Prestamos {
     private Integer plazoMinimoMeses;
     private Integer plazoMaximoMeses;
     private String tipoAmortizacion;
-    private Integer idSeguro;
-    private Integer idTipoComision;
+    private String idSeguro;
+    private String idTipoComision;
     private String estado;
     private Long version;
 

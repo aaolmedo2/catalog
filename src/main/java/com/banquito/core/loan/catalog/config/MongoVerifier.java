@@ -15,7 +15,7 @@ public class MongoVerifier implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        System.out.println("DB conectado: " + mongo.getDb().getName());
-        System.out.println("Colecciones: " + mongo.getCollectionNames());
+        System.out.println("✅ DB conectado: " + mongo.getDb().getName());
+        // System.out.println("Colecciones: " + mongo.getCollectionNames());
     }
 }

@@ -30,7 +30,7 @@ public class TiposPrestamos {
     private String estado;
     private Long version;
     private String esquemaAmortizacion;
-    private Integer idGarantia;
+    private String idGarantia;
 
     public TiposPrestamos(String id) {
         this.id = id;

@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface PrestamosRepository extends MongoRepository<Prestamos, String> {
 
-    List<Prestamos> findByIdTipoPrestamoAndEstado(Integer idTipoPrestamo, String estado);
+    List<Prestamos> findByIdTipoPrestamoAndEstado(String idTipoPrestamo, String estado);
 
     List<Prestamos> findByEstado(String estado);
 
