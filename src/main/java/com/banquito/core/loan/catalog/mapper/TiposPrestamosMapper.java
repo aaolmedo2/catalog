@@ -1,6 +1,5 @@
 package com.banquito.core.loan.catalog.mapper;
 
-import com.banquito.core.loan.catalog.dto.GarantiasDTO;
 import com.banquito.core.loan.catalog.dto.TiposPrestamosDTO;
 import com.banquito.core.loan.catalog.model.Garantias;
 import com.banquito.core.loan.catalog.model.TiposPrestamos;
