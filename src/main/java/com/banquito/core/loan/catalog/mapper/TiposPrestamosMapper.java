@@ -1,6 +1,8 @@
 package com.banquito.core.loan.catalog.mapper;
 
+import com.banquito.core.loan.catalog.dto.GarantiasDTO;
 import com.banquito.core.loan.catalog.dto.TiposPrestamosDTO;
+import com.banquito.core.loan.catalog.model.Garantias;
 import com.banquito.core.loan.catalog.model.TiposPrestamos;
 import lombok.extern.slf4j.Slf4j;
 
@@ -23,6 +25,13 @@ public class TiposPrestamosMapper {
                 .esquemaAmortizacion(entity.getEsquemaAmortizacion())
                 .idGarantia(entity.getIdGarantia())
                 .build();
+    }
+
+    public static TiposPrestamosDTO mapToDTOWithGarantia(TiposPrestamos entity, Garantias garantia) {
+        log.info("Mapeando entidad TiposPrestamos a DTO con garantía incluida: {}", entity);
+        TiposPrestamosDTO dto = mapToDTO(entity);
+        dto.setGarantia(GarantiasMapper.mapToDTO(garantia));
+        return dto;
     }
 
     public static TiposPrestamos mapToEntity(TiposPrestamosDTO dto) {

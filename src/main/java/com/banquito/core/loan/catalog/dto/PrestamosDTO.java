@@ -63,4 +63,9 @@ public class PrestamosDTO {
 
     private String estado;
     private Long version;
+
+    // Objetos completos para respuestas
+    private TiposPrestamosDTO tipoPrestamo;
+    private SegurosDTO seguro;
+    private TiposComisionesDTO tipoComision;
 }

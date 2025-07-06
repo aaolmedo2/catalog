@@ -38,4 +38,7 @@ public class TiposPrestamosDTO {
 
     @NotNull(message = "ID de garantía es requerido")
     private String idGarantia;
+
+    // Objeto completo de la garantía para respuestas
+    private GarantiasDTO garantia;
 }
