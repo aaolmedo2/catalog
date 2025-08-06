@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/seguros")
+@RequestMapping("/api/catalogo/v1/seguros")
 @Tag(name = "Seguros", description = "API para gestionar seguros")
 public class SegurosController {
 

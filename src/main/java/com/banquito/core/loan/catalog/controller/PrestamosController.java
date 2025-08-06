@@ -32,7 +32,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/prestamos")
+@RequestMapping("/api/catalogo/v1/prestamos")
 @Tag(name = "Préstamos", description = "API para gestionar préstamos")
 public class PrestamosController {
 

@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/tipos-comisiones")
+@RequestMapping("/api/catalogo/v1/tipos-comisiones")
 @Tag(name = "Tipos de Comisiones", description = "API para gestionar tipos de comisiones")
 public class TiposComisionesController {
 

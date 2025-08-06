@@ -28,7 +28,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/tipos-prestamos")
+@RequestMapping("/api/catalogo/v1/tipos-prestamos")
 @Tag(name = "Tipos de Préstamos", description = "API para gestionar tipos de préstamos")
 public class TiposPrestamosController {
 
