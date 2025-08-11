@@ -1,4 +1,4 @@
-name: Deploy Vite React App to AWS
+name: Deploy banco Catalogo App to AWS
 
 on:
   push:
@@ -12,7 +12,7 @@ env:
   ECR_REPOSITORY: banquito-banco-catalogo
   ECS_CLUSTER: banquito-cluster
   ECS_SERVICE: banquito-banco-catalogo
-  CONTAINER_NAME: frontend-container
+  CONTAINER_NAME: catalogo-container
 
 jobs:
   deploy:
