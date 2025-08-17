@@ -33,6 +33,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/api/catalogo/v1/prestamos")
+@CrossOrigin(origins = "*")
 @Tag(name = "Préstamos", description = "API para gestionar préstamos")
 public class PrestamosController {
 

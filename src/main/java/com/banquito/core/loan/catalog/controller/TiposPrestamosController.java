@@ -28,6 +28,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/catalogo/v1/tipos-prestamos")
 @Tag(name = "Tipos de Préstamos", description = "API para gestionar tipos de préstamos")
 public class TiposPrestamosController {

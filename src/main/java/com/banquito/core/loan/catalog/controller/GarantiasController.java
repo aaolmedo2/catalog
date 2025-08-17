@@ -25,6 +25,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/catalogo/v1/garantias")
 @Tag(name = "Garantías", description = "API para gestionar garantías")
 public class GarantiasController {
